@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: Apple Chancery, cursive; 
+}
+
+a:hover {
+    color: #e71b2a; 
+}
+
+.navbar {
+    background-color: #515d30; 
+}
+
+.navbar-brand {
+    color: white; 
+}
+
+.nav-link {
+    color: white;
+}
+
+.fw-normal {
+    color: white;
+   
+}
+
+.col-md-5 {
+   background-color: #515d30;;
+   
+}
+
+.btn {
+    background-color: #fdeea5;
+    color:black;  
+    border: 1px solid #fdeea5; 
+}
+
+
+
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }

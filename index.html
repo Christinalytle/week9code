@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Christina Lytle Home</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="custom.css"> 
+    </head>
+    <body>
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="container">
+                    <a class="navbar-brand" href="#" style="font-family: Apple Chancery, cursive;">
+                      <img src="pictures/CL.png" alt="" width="50" height="50"> Christina Lytle: Desert Coding
+                    </a>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="kdramatable.html">Top 10 K-Dramas</a></li>
+                      <li><a class="dropdown-item" href="#">Another Blog Item</a></li>
+                      <li><a class="dropdown-item" href="#">Another Blog Item</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <main>
+          <!-- Header with cactus picture -->
+          <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center" style="background-image: url(pictures/yellow\ flower\ copy.jpg);" >
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+              <h1 class="display-4 fw-normal">Welcome!</h1>
+              <p class="lead fw-normal">Please look around to learn more about my projects and my love for Korean Culture!</p>
+              <a class="btn btn-outline-secondary" href="kdramatable.html">Blog</a>
+            </div>
+          </div>
+          <!-- Left box "About Me" with family photo -->
+          <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3" style="height: 400px;">
+            <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="background-image: url(pictures/Lytle-Final-0076\ copy.jpg); background-size: cover">
+              <div class="my-3 py-3">
+                <h2 class="display-5">About Me</h2>
+                <p class="lead">Coding in Phoenix</p>
+              </div>
+            </div>
+            <!-- Right box "Blog/KDramas" with link to top 10 KDramas -->
+            <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background-image: url(pictures/healer\ copy.jpeg)">
+              <div class="my-3 p-3">
+                <h2 class="display-5">List of top 10 K-Dramas</h2>
+                <a class="btn btn-outline-secondary" href="kdramatable.html">List</a>
+              </div>
+            </div>
+          </div>
+          <!-- Foother with logo, copyright, and sitemap -->
+          <footer class="container py-5">
+            <div class="row">
+              <div class="col-12 col-md">
+                <img src="pictures/CL.png" alt="" width="60" height="60" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"
+                ><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+                <small class="d-block mb-3 text-muted">&copy; 2021</small>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Resume</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="#">PDF</a></li>
+                  <li><a class="link-secondary" href="#">Portfolio</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Blog</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="kdramatable.html">Top 10 Korean Dramas</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="#">About Me</a></li> 
+                </ul>
+              </div>
+            </div>
+          </footer>
+        </main>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>

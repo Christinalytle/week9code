@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="custom.css"> 
+    </head>
+    <body>
+      <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html" style="font-family: Apple Chancery, cursive;">
+                      <img src="pictures/CL.png" alt="" width="50" height="50"> Christina Lytle: Desert Coding
+                    </a>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Top 5 K-Dramas</a></li>
+                      <li><a class="dropdown-item" href="#">Another Blog Item</a></li>
+                      <li><a class="dropdown-item" href="#">Another Blog Item</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <main>
+          <!-- Header with cactus picture and Contact -->
+            <div class="container-fluid">
+                <div class="position-relative overflow-hidden p-3 p-md-3 m-md-2 text-center" style="background-image: url(pictures/yellow\ flower\ edit.jpg); 
+                background-size: cover; height:200px; width: auto;" >
+                        <div class="col-md-6 mx-auto" style="margin-top: 50px;">
+                          <h1 class="display-4 fw-normal" style="color: black"  >Contact</h1>
+                        </div>
+                    </div>
+                </div>
+            <!-- Contact Form -->
+            <div class="container"> 
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputFirstName4">First Name</label>
+                        <input type="text" class="form-control" id="inputFirstName4" placeholder="First Name">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputLastName4">Last Name</label>
+                        <input type="text" class="form-control" id="inputLastName4" placeholder="Last Name">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputEmail">Email</label>
+                      <input type="email" class="form-control" id="inputEmail" placeholder="name@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="I want to connect about a job opportunity..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+            <!-- Foother with logo, copyright, and site map -->
+            <footer class="container py-5">
+              <div class="row">
+                <div class="col-12 col-md">
+                  <img src="pictures/CL.png" alt="" width="60" height="60" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                  class="d-block mb-2" role="img" viewBox="0 0 24 24"
+                  ><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+                  <small class="d-block mb-3 text-muted">&copy; 2021</small>
+                </div>
+                <div class="col-6 col-md">
+                  <h5>Resume</h5>
+                  <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">PDF</a></li>
+                    <li><a class="link-secondary" href="#">Portfolio</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md">
+                  <h5>Blog</h5>
+                  <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="kdramatable.html">Top 10 Korean Dramas</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md">
+                  <h5>About</h5>
+                  <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">About Me</a></li> 
+                  </ul>
+                </div>
+              </div>
+            </footer>
+        </main>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
